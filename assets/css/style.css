@@ -9,7 +9,7 @@ body {
 }
 
 
-
+/* made this as the header instead of div */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,7 +32,7 @@ header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    position: static;
+    /*position: static;*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     
@@ -48,7 +48,7 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
-    position: static;
+    /*position: static;*/
 }
 /* position static/sticky not working */
 
@@ -63,6 +63,8 @@ p {
     font-size: 16px;
 }
 
+
+/* made this as figure for establishing an image divider */
 figure {
     height: 800px;
     width: 100%;
@@ -88,6 +90,8 @@ main {
     margin-left: 20px;
 }
 
+
+/* changed div as aside sine this is a side bar style portion of the webpage */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -201,6 +205,7 @@ aside {
     font-size: 36px;
 }
 
+/* changed the div here for footer*/
 footer {
     padding: 30px;
     clear: both;
